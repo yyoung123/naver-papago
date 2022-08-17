@@ -33,8 +33,8 @@ app.post("/papago", (req, res) => {
       text: txt,
     },
     headers: {
-      "X-Naver-Client-Id": "NAVER_ID",
-      "X-Naver-Client-Secret": "NAVER_SECRET_ID",
+      "X-Naver-Client-Id": NAVER_ID,
+      "X-Naver-Client-Secret": NAVER_SECRET_ID,
       "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
     },
   })

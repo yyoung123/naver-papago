@@ -39,7 +39,7 @@ app.post("/papago", (req, res) => {
     },
   })
     .then((response) => {
-      console.log(response.data.message.result.translatedText);
+      // console.log(response.data.message.result.translatedText);
       res.json({ result: response.data.message.result.translatedText });
     })
     .catch((error) => {
